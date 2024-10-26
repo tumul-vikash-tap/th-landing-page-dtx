@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+
+}
+.navbar{
+    display: flex;
+    height: 76px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+} 
+.topleft{
+    height: 50vh;
+    width: 50%;
+
+}
+.topright{
+    height: 50vh;
+    width: 50%;
+
+}
+.section1{
+    height: 50vh;
+}
+.logo {
+    font-size: 1.3rem;
+}
