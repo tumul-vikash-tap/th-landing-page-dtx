@@ -1,10 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 .container{
     max-width: 80vw;
+    
 
 }
 .navbar{
@@ -13,12 +15,12 @@
 }
 .navbar li{
     list-style: none;
-    margin: 0 12px;
+    margin: 12px;
 } 
 .topleft{
-    height: 50vh;
     width: 50%;
-
+    padding: 12px;
+    height: 155px;
 }
 .topright{
     height: 50vh;
@@ -27,7 +29,109 @@
 }
 .section1{
     height: 50vh;
+    
+}
+.section2 h1{
+    padding-left:63 ;
+    padding-right: 63;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.section2 h1{
+    font-size: 2rem;
 }
 .logo {
     font-size: 1.3rem;
+}
+.topright.gyming{
+    width: 333px ;
+    
+}
+.box{
+    margin: 12px 22px;
+    min-width: 33vw;
+  
+}
+.box{
+    margin: 12px 22px;
+    min-width: 22vw;
+    border: 2px solid rgb(27, 80, 170);
+    text-align: center;
+    padding: 15px;
+}
+.box ul{
+    list-style-type: none;
+
+}
+
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+   margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+} 
+
+.section3 table td{   
+    border-bottom: 2px solid black; 
+} 
+ 
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
 }
